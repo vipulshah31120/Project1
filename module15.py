@@ -18,4 +18,4 @@ def fact(num) :     #@memoize_factorial
     else :
         return num*fact(num-1)
 
-print(fact(5))
+print(fact(8))
